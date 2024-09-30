@@ -35,4 +35,7 @@ run: ## Run the project using cargo
 release: ## Build a release binary using cargo
 	cargo build --release
 
+init: ## init repo
+	cargo init
+
 all: fmt lint test build run ## make all 
